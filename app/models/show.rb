@@ -24,4 +24,8 @@ class Show < ActiveRecord::Base
     #return an array of all the shows with a rating above 5
     Show.where("rating > 5")
   end
+
+  def self.shows_by_alphabetical_order
+    
+  end
 end
