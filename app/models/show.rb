@@ -21,6 +21,6 @@ class Show < ActiveRecord::Base
   end
 
   def self.popular_shows
-
+    #return an array of all the shows with a rating above 5
   end
 end
